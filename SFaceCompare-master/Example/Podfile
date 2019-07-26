@@ -1,0 +1,32 @@
+platform :ios, '11.3'
+
+use_frameworks!
+
+target 'SFaceCompare_Example' do
+  pod 'SFaceCompare', :path => '../'
+
+  target 'SFaceCompare_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick'
+    pod 'Nimble'
+    pod 'SnapKit'
+    pod 'Kingfisher'
+    pod 'Alamofire'
+    pod 'GoogleMaps'
+    pod 'GooglePlaces'
+    pod 'Firebase/Core'
+    pod 'Firebase/Firestore'
+    pod 'Firebase/Storage'
+  end
+    pod 'Quick'
+    pod 'Nimble'
+    pod 'SnapKit'
+    pod 'Kingfisher'
+    pod 'Alamofire'
+    pod 'GoogleMaps'
+    pod 'GooglePlaces'
+    pod 'Firebase/Core'
+    pod 'Firebase/Firestore'
+    pod 'Firebase/Storage'
+end
